@@ -11,3 +11,6 @@ ping -c4 www.yahoo.com
 
 echo "****************************"
 echo "****************************"
+
+egrep 'processor|core id' /proc/cpuinfo
+echo "****************************"
